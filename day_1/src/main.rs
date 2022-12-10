@@ -50,5 +50,11 @@ fn main() {
 		}
 	}
 
-	println!("Top three: {} + {} + {} = {}", first, second, third, first + second + third);
+	println!(
+		"Top three: {} + {} + {} = {}",
+		first,
+		second,
+		third,
+		first + second + third
+	);
 }

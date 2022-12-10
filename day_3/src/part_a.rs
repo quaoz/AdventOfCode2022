@@ -7,7 +7,7 @@ pub fn main() {
 	let file = File::open(data).expect("Error reading file");
 	let buffer_reader = BufReader::new(file);
 
-	let mut sum= 0;
+	let mut sum = 0;
 
 	for line in buffer_reader.lines() {
 		let line = line.expect("Unable to read line");

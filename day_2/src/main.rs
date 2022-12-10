@@ -2,6 +2,7 @@ use std::fs::File;
 use std::io::{BufRead, BufReader};
 
 fn main() {
+	// true for part one, false for part two
 	let mode: bool = false;
 
 	// read data from file using a buffered reader
@@ -70,7 +71,7 @@ fn part_two(opponent: &i32, you: &i32) -> i32 {
 		} else {
 			2
 		}
-	}
+	};
 }
 
 // Converts the letters to numeric values
@@ -81,5 +82,5 @@ fn to_value(s: &str) -> i32 {
 		2 // paper
 	} else {
 		3 // scissors
-	}
+	};
 }

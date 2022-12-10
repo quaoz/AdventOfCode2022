@@ -6,7 +6,7 @@ pub fn main() {
 	let data = "data/input";
 	let file = File::open(data).expect("Error reading file");
 	let mut lines = BufReader::new(file).lines();
-	
+
 	let mut sum = 0;
 
 	let mut line_1 = lines.next();
